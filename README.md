@@ -1,14 +1,42 @@
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/115611931/236345368-d736404f-7242-4403-bdb4-2224827af9dd.png" width="800px">
-</div>
+<h1 align="center">FinWise</h1>
+<h3 align="center">"Spend Wisely, Manage Wisely"</h3>
 
-# Ledgerly Accounting ⚖️ 
+<p align="center">About the project</p>
+<p align="center">
+    <img src="https://img.shields.io/github/forks/nandita27iitp/finWise">
+    <img src="https://img.shields.io/github/stars/nandita27iitp/finWise"><br><br>
+FinWise is a full-stack MERN application that provides small-business owners with a comprehensive solution to manage their incomes and expenses. Handle tax season like a boss with FinWise.
+</p>
 
-Ledgerly Accounting is a full-stack MERN application that provides small-business owners with a comprehensive solution to manage their incomes and expenses. Handle tax season like a boss with Ledgerly.
+<p align="center">Tech Stack</p>
+<p align="center">
+    <img src="https://img.shields.io/badge/mongoDB-%234DB33D.svg?style=for-the-badge&logo=mongoDB&logoColor=3FA037"> 
+    <img src="https://img.shields.io/badge/express-%231572B6.svg?style=for-the-badge&logo=express&logoColor=white">
+    <img src="https://img.shields.io/badge/react-%23323330.svg?style=for-the-badge&logo=react&logoColor=%23F7DF1E">
+    <img src="https://img.shields.io/badge/node-%234DB33D?style=for-the-badge&logo=node.js&logoColor=3FA037">
+</p>
+<br>
 
-<strong>View it here: https://ledgerly.up.railway.app</strong>
+## Inspiration for the Project:
 
-<i>Please wait a moment for the server to spin up.</i>
+Building a tool to address challenges such as managing finances, tracking expenses, or setting and achieving savings goals can be both practical and personally rewarding.
+
+There's a growing demand for digital tools that help individuals manage their finances more effectively. With the increasing adoption of online banking and digital transactions, there's a need for comprehensive solutions that offer budgeting, expense tracking, and goal setting functionalities. 
+
+Many people lack basic financial literacy skills, such as budgeting and saving. Building an application that simplifies these concepts and helps users develop better financial habits can contribute to financial empowerment and education.
+
+## Features of FinWise at a Glance:
+
+| Function | Feature | Image |
+| --- | ----------- | -------|
+| Registration and Login | Allow user to login or create a new account | # |
+| Home Page | Listing all posted entry and exit transactions | # |
+| Current balance display | Provide contact details to get emergency medical services | # |
+| Searched period filtering | "All" / "7 days" / "15 days" / "30 days" | # |
+| Category management for inputs or outputs | # | # |
+| Category filtering | # | # |
+
+----
 
 ## Get Started
 
@@ -22,18 +50,29 @@ Ledgerly Accounting is a full-stack MERN application that provides small-busines
 
 5. See your net cash flow based on these filters, and generate financial reports of your data.
 
-## Technologies Used
-React.js | Express.js | Node.js | MongoDB
+## Setting up project locally (Installation)
+1. Fork the repository
 
-## Future Enhancements
-<ul>
-  <li>Landing page ✔️</li> 
-  <li>User dashboard page</li>
-  <li>Visual representations of transactions</li>
-  <li>Responsive design for mobile and tablet displays ✔️</li>
-  <li>Budgeting tool</li>
-</ul>
+2. Clone Your Forked Repository:
 
-## Wireframes
+```sh
+git clone https://github.com/<your_username>/finWise.git
+```
 
-<img width="800px" src="https://user-images.githubusercontent.com/115611931/225142190-2a4c5a8c-87c9-4e4c-9283-f02e888df961.png">
+3. Install Dependencies:
+
+```sh
+npm install
+```
+
+5. Start the Application:
+
+```sh
+npm run dev
+``` 
+
+6. Start the server
+
+```sh
+npm start
+```
